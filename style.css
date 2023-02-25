@@ -1,0 +1,129 @@
+.Options{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.Option1, .Option2{
+    margin: 10px;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color:brown;
+}
+ a:hover{
+    color:rgb(168, 158, 223);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+
+ .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .INPUT{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: 584px;
+    height: 45.6px;
+    max-width: 584px;
+    border-color: rgb(71, 68, 64);
+    
+ }
+
+ .SEARCH{
+    background-color: #f7f3e0;
+    border: 1px solid #f8f9fa;
+    border-radius: 8px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+ }
+
+.SEARCH:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ 
+.h1-advance{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    font-family:Arial, sans-serif;
+    font-weight: lighter;
+    
+}
+
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+.h2-page{
+    font-size: 16px;
+    color: #333333;
+    font-family:Arial, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+
+.advanceinputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family:Arial, sans-serif;
+
+}
+
+.LEFT{
+    width: 175px;
+    margin-left: 35px;
+    font-size: 13px;
+    font-family:Arial, sans-serif;
+    font-size: 13px;
+
+}
+
+.RIGHT{
+
+    width: 500px;
+    height: 50px;
+    border-radius: 2px;
+}
+
+.btn-primary{    
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.advancebuttons{
+    display: flex;
+    justify-content: flex-end;
+    width: 710px;
+    margin-top: 35px;
+}
